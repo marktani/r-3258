@@ -1,0 +1,4 @@
+type User {
+  id: ID! @unique
+  numFollowers: Int! @default(value: "0")
+}

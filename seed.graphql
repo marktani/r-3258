@@ -1,0 +1,20 @@
+mutation {
+  a: createUser(data: {numFollowers: 1}) { id }
+  b: createUser(data: {numFollowers: 1}) { id }
+  c: createUser(data: {numFollowers: 1}) { id }
+  d: createUser(data: {numFollowers: 2}) { id }
+  e: createUser(data: {numFollowers: 3}) { id }
+  f: createUser(data: {numFollowers: 0}) { id }
+  g: createUser(data: {numFollowers: -1}) { id }
+  h: createUser(data: {numFollowers: -2}) { id }
+  i: createUser(data: {numFollowers: -3}) { id }
+  j: createUser(data: {numFollowers: -10}) { id }
+  k: createUser(data: {numFollowers: -10}) { id }
+  l: createUser(data: {numFollowers: -10}) { id }
+  m: createUser(data: {numFollowers: -10}) { id }
+  n: createUser(data: {numFollowers: -10}) { id }
+  o: createUser(data: {numFollowers: -10}) { id }
+  p: createUser(data: {numFollowers: -10}) { id }
+  q: createUser(data: {numFollowers: -10}) { id }
+  r: createUser(data: {numFollowers: -10}) { id }
+}
