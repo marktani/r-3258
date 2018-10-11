@@ -8,7 +8,7 @@ Reproduction for https://github.com/prisma/prisma/issues/3258
 git clone git@github.com:marktani/r-3258.git
 cd r-3258
 docker-compose up -d
-npm install prisma@beta # prisma/1.19.0-beta.2
+npm install -g prisma@beta # prisma/1.19.0-beta.2
 prisma deploy
 prisma playground
 ```
